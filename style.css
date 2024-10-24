@@ -1,0 +1,224 @@
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.first-section{
+    padding-block: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.container{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.card {
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    border : 3px solid black;
+    padding-block: 10px;
+    padding-inline: 5px;
+}
+
+.card p {
+    text-align: center;
+}
+
+.main-container{
+    margin-inline: 100px ;
+}
+
+.overview{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overview p{
+    font-size: large;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 30px;
+}
+
+nav{
+    display: flex;
+    gap :50px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+
+.education-info {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 20px;
+}
+
+.dateLocation{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap:3px;
+}
+
+.education-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.education{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.green-color {
+    color: #0D7C66;
+}
+
+.text-large {
+    font-size: large;
+}
+
+.text-xl {
+    font-size: x-large;
+}
+
+hr {
+    border: black solid 2px;
+}

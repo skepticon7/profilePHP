@@ -8,21 +8,24 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <script src="script.js" defer></script>
 </head>
 <body>
 <div class="main-container">
 <!--        navbar-->
         <header>
-            <nav>
-                <a href="#"><p class="poppins-bold">Overview</p></a>
-                <a href="#"><p class="poppins-bold">Projects</p></a>
-                <a href="#"><p class="poppins-bold">Friends</p></a>
-                <a href="#"><p class="poppins-bold">Education</p></a>
-                <a href="#"><p class="poppins-bold">Hobbies</p></a>
+            <nav class="navbar">
+                <a href="#section1"><p class="poppins-bold">Overview</p></a>
+                <a href="#section4"><p class="poppins-bold">Projects</p></a>
+                <a href="#section3"><p class="poppins-bold">Skills</p></a>
+                <a href="#section5"><p class="poppins-bold">Friends</p></a>
+                <a href="#section1"><p class="poppins-bold">Education</p></a>
+                <a href="#section6"><p class="poppins-bold">Hobbies</p></a>
             </nav>
         </header>
 <!--      first section-->
-        <section class="first-section">
+        <section id="section1" class="section-container">
             <div class="container">
                 <div class="card">
                     <img src="images/image.jpg" alt="personalImage">
@@ -36,9 +39,9 @@
         </section>
         <hr>
 <!--    2nd section : education-->
-        <section class="first-section">
+        <section id="section2" class="section-container">
             <div class="education">
-                <p class="poppins-semibold text-xl">Education :</p>
+                <p class="poppins-semibold text-h1">Education :</p>
                 <div class="education-container">
                     <div class="education-info">
                         <div class="dateLocation">
@@ -75,6 +78,205 @@
                             Graduated with a Grade: Assez Bien, reflecting strong academic performance and dedication throughout the program.
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section id="section3" class="section-container">
+            <p class="text-h1 poppins-bold">Skills :</p>
+                <div class="skills-container">
+                    <div class="dev-skills-container">
+                        <div class="dev-coding-container">
+                            <div class="icon-text">
+                                <p class="poppins-semibold text-h3">Dev Skills :</p>
+<!--                                <img class="icon" src="/images/dev.png">-->
+                            </div>
+                            <div class="dev-skills">
+                                <p><span class="poppins-bold green-color text-body">Frontend :</span> <span class="poppins-semibold text-body">Html , Css , JavaScript , React</span></p>
+                                <p><span class="poppins-bold green-color text-body">Languages :</span> <span class="poppins-semibold text-body">Java , C , TypeScript , NodeJS</span></p>
+                                <p><span class="poppins-bold green-color text-body">Frameworks :</span> <span class="poppins-semibold text-body">Express , Spring Boot , Angular , tailwindCSS</span></p>
+                                <p><span class="poppins-bold green-color text-body">Database :</span> <span class="poppins-semibold text-body">MongoDB , MySQL , PostresSQL</span></p>
+                            </div>
+                        </div>
+                        <div class="dev-coding-container">
+                            <div class="icon-text">
+                                <p class="poppins-semibold text-h3">Problem solving :</p>
+<!--                                <img class="icon" src="/images/coding.png">-->
+                            </div>                            <div class="dev-skills">
+                                <p class="poppins-semibold text-body">Time and Space complexity</p>
+                                <p class="poppins-semibold text-body">Searching and Sorting Algorithms</p>
+                                <p class="poppins-semibold text-body">Recursion and Backtracking</p>
+                                <p class="poppins-semibold text-body">Arrays and Linked lists</p>
+                                <p class="poppins-semibold text-body">Stacks and Queues</p>
+                                <p class="poppins-semibold text-body">HashMaps</p>
+                                <p class="poppins-semibold text-body">Trees</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="language-container">
+                        <p class="poppins-semibold text-h3">Language Proficiency :</p>
+                        <div class="languages">
+                            <p><span class="poppins-bold green-color text-body">Arabic :</span><span class="poppins-semibold text-body"> Native</span></p>
+                            <p><span class="poppins-bold green-color text-body">English :</span><span class="poppins-semibold text-body"> Working proficiency</span></p>
+                            <p><span class="poppins-bold green-color text-body">French :</span><span class="poppins-semibold text-body"> Intermediate proficiency</span></p>
+                            <p><span class="poppins-bold green-color text-body">Russian :</span><span class="poppins-semibold text-body"> Basic proficiency</span></p>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <hr>
+<!--        third section-->
+        <section id="section4" class="section-container">
+            <p class="poppins-bold text-h1">Projects :</p>
+            <div class="projects-container">
+                   <div class="project-layout">
+                       <div class="project-img-container">
+                           <img src="images/chatifty.jpg">
+                       </div>
+                       <div class="project-description">
+                           <p class="poppins-bold text-h2">Chatify</p>
+                           <div class="text-dev-icon">
+                               <p class="poppins-semibold text-h4">Made with :</p>
+                               <div class="dev-icon-container">
+                                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
+                                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />
+                                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" />
+                                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-plain-wordmark.svg" />
+                                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" />
+                                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/socketio/socketio-original.svg" />
+                                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
+                               </div>
+                           </div>
+                           <p class="poppins-medium text-body">Chatify is a real-time chat application developed with the MERN stack, utilizing Socket.io for instant messaging. It provides users with an intuitive interface to engage in one-on-one or group chats, ensuring seamless communication.</p>
+                           <button>
+                               <div class="button-icon">
+                                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-plain.svg" />
+                                   <p class="poppins-semibold text-body"><a href="https://www.linkedin.com/feed/update/urn:li:activity:7202310697383276544/?originalSubdomain=fr">View</a></p>
+                               </div>
+                           </button>
+                       </div>
+                   </div>
+                   <div class="project-layout">
+                       <div class="project-img-container">
+                           <img class="zoom-out" src="images/curify.png">
+                       </div>
+                       <div class="project-description">
+                           <p class="poppins-bold text-h2">Curify</p>
+                           <div class="text-dev-icon">
+                               <p class="poppins-semibold text-h4">Made with :</p>
+                               <div class="dev-icon-container">
+                                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
+                                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />
+                                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" />
+                                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-plain-wordmark.svg" />
+                                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" />
+                                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/socketio/socketio-original.svg" />
+                                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
+                               </div>
+                           </div>
+                           <p class="poppins-medium text-body">Curiy is a comprehensive hospital application that connects doctors and patients, allowing for easy sign-up and appointment booking. Patients can schedule consultations, make payments seamlessly through Stripe, and manage their appointments, while doctors can oversee their schedules efficiently.</p>
+                            <button>
+                                <div class="button-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
+                                    <p class="poppins-semibold text-body"><a href="https://github.com/skepticon7/HospitalApp">Code</a></p>
+                                </div>
+                            </button>
+                       </div>
+                   </div>
+               </div>
+        </section>
+        <hr>
+<!--        fifth section-->
+        <section id="section5" class="section-container">
+            <p class="poppins-bold text-h1">Friends :</p>
+            <table class="friends-table">
+                <thead class="thead-color">
+                    <th class="poppins-semibold text-h5">Full name</th>
+                    <th class="poppins-semibold text-h5">Occupation</th>
+                    <th class="poppins-semibold text-h5">Location</th>
+                    <th class="poppins-semibold text-h5">About</th>
+                    <th>Linkedin</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="poppins-medium text-body">Moulay Noureddine</td>
+                        <td class="poppins-medium text-body">Software Engineering Student</td>
+                        <td class="poppins-medium text-body">FST</td>
+                        <td class="poppins-medium text-body">We have know each others since we were 5 and we have been friends ever since , he is currently pursuing his engineering degree in FST Marrakech</td>
+                        <td>
+                            <button>
+                                <div class="button-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-plain.svg" />
+                                    <p class="poppins-semibold text-body"><a href="https://www.linkedin.com/in/noureddine-moulay-7b374022a/">View</a></p>
+                                </div>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="poppins-medium text-body">Mohammed Amine Oulehlou</td>
+                        <td class="poppins-medium text-body">Technical support engineer</td>
+                        <td class="poppins-medium text-body">Dell Technologies</td>
+                        <td class="poppins-medium text-body">We have met through internet and discord calls in 2015 , he is currently working as a technical support engineer in Dell Technologies Casablanca</td>
+                        <td>
+                            <button>
+                                <div class="button-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-plain.svg" />
+                                    <p class="poppins-semibold text-body"><a href="https://www.linkedin.com/in/mohamed-amine-oulehlou-737068197/">View</a></p>
+                                </div>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="poppins-medium text-body">Meryem EL HILALI</td>
+                        <td class="poppins-medium text-body">Big Data Engineer</td>
+                        <td class="poppins-medium text-body">CGI</td>
+                        <td class="poppins-medium text-body">My older sister , she has been working at CGI in France for 6 years</td>
+                        <td>
+                            <button>
+                                <div class="button-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-plain.svg" />
+                                    <p class="poppins-semibold text-body"><a href="https://www.linkedin.com/in/meryem-el-hilali/">View</a></p>
+                                </div>
+                            </button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <hr>
+<!--        hobbies-->
+        <section id="section6" class="section-container">
+            <p class="poppins-bold text-h1">Hobbies :</p>
+            <div class="hobbies-layout">
+                <div class="hobby">
+                    <p class="poppins-semibold text-h3">Swimming</p>
+                    <img src="images/swimming.jpg">
+                    <p class="poppins-medium text-body">Overcoming my fear of water, I discovered a love for swimming—a sport that builds strength, boosts heart health, and brings a sense of calm.</p>
+                </div>
+                <div class="hobby">
+                    <p class="poppins-semibold text-h3">Football</p>
+                    <img src="images/football.jpg">
+                    <p class="poppins-medium text-body">Football is a lifelong passion for me, a love deeply rooted in Moroccan culture and shared by countless young people across the country. It’s more than just a game</p>
+                </div>
+                <div class="hobby">
+                    <p class="poppins-semibold text-h3">Formula 1</p>
+                    <img src="images/f1.jpeg">
+                    <p class="poppins-medium text-body">Formula 1 captivates me not only for the thrill of speed but for the incredible engineering precision behind each race. The blend of high-tech innovation, aerodynamics.</p>
+                </div>
+                <div class="hobby">
+                    <p class="poppins-semibold text-h3">MMA</p>
+                    <img src="images/conor.jpg">
+                    <p class="poppins-medium text-body">MMA has become a passion that challenges me to step out of my comfort zone and embrace bravery. It’s a sport that demands strength, discipline, and resilience.</p>
+                </div>
+                <div class="hobby">
+                    <p class="poppins-semibold text-h3">Coding</p>
+                    <img src="images/coding.jpg">
+                    <p class="poppins-medium text-body">Coding is more than just my field; it’s a creative outlet where I solve problems and bring ideas to life. Every line of code is a step toward innovation.</p>
+                </div>
+                <div class="hobby">
+                    <p class="poppins-semibold text-h3">Studying WW2</p>
+                    <img src="images/ww2.webp">
+                    <p class="poppins-medium text-body">Studying and researching World War II is a deep interest of mine, driven by the conflict’s profound impact on history and society.</p>
                 </div>
             </div>
         </section>
